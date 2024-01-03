@@ -17,7 +17,3 @@ const firebaseConfig = {
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
-
-
-// Initialize Analytics and get a reference to the service
-const analytics = firebase.analytics();

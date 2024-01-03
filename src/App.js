@@ -6,6 +6,10 @@ import Exercises from "./components/exercises";
 import Log from "./components/log";
 import Profile from "./components/profile";
 import NavBar from "./components/navbar";
+import firebase from "firebase/compat";
+
+// Initialize Analytics and get a reference to the service
+const analytics = firebase.analytics();
 
 class App extends Component {
   state = {
