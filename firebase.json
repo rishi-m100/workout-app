@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "workout-app-498b1",
     "public": "build",
     "ignore": [
       "firebase.json",
@@ -15,3 +16,5 @@
     "predeploy": "npm run build"
   }
 }
+
+
