@@ -6,7 +6,7 @@ import IconButton from "@mui/material/IconButton";
 import SvgIcon from "@mui/material/SvgIcon";
 
 import { faSquarePlus } from "@fortawesome/free-solid-svg-icons";
-import { storage } from "firebase";
+// import { storage } from "firebase";
 
 class WorkoutModal extends Component {
   state = {
