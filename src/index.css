@@ -1,0 +1,58 @@
+*{
+  outline: none!important;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.summary-title {
+  text-decoration: underline;
+}
+
+.btn-primary{
+  background-color:#ff4529 !important;
+  outline: none !important;
+  border: none !important;
+}
+.nav-item a{
+  color: #ff4529 !important;
+}
+
+.active a{
+  color: black !important;
+}
+a:hover{
+  cursor: pointer;
+}
+
+
+.pill{
+  cursor: pointer;
+}
+.container{
+  height: auto;
+}
+
+.ex-title{
+  padding: 15px;
+}
+
+.code{
+  color: white;
+}
+
+.workout_button{
+  width: 50%;
+  height: auto;
+}
