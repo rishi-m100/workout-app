@@ -49,7 +49,7 @@ class Days extends Component {
   handleEdit = (counter) => {
     const text = [...this.state.text];
     const index = counter - 1;
-    text[index].display = "bruh";
+    text[index].display = "nothing to see here";
 
     this.setState({ text });
   };
