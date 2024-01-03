@@ -1,7 +1,7 @@
 {
   "hosting": {
     "site": "workout-app-498b1",
-    "public": "build",
+    "public": "public",
     "ignore": [
       "firebase.json",
       "**/.*",
