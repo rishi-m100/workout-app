@@ -6,7 +6,7 @@ import Exercises from "./components/exercises";
 import Log from "./components/log";
 import Profile from "./components/profile";
 import NavBar from "./components/navbar";
-import { firebase } from "../firebase";
+import { firebase } from "./firebase";
 // Initialize Analytics and get a reference to the service
 const analytics = firebase.analytics();
 
