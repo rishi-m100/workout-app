@@ -1,6 +1,6 @@
 // Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
+import firebase from "firebase/compat/app";
+import "firebase/compat/analytics";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
@@ -13,9 +13,11 @@ const firebaseConfig = {
   storageBucket: "workout-app-498b1.appspot.com",
   messagingSenderId: "595596484905",
   appId: "1:595596484905:web:366b45f9ae5a3fb08f9738",
-  measurementId: "G-YNNNTPNHTY"
+  measurementId: "G-YNNNTPNHTY",
 };
-
 // Initialize Firebase
-const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
+firebase.initializeApp(firebaseConfig);
+
+
+// Initialize Analytics and get a reference to the service
+const analytics = firebase.analytics();
