@@ -19,7 +19,7 @@ class Dropdown extends Component {
             {" "}
             <b> {this.props.id} </b>
           </Accordion.Button>
-          <Accordion.Body></Accordion.Body>
+          <Accordion.Body>hi</Accordion.Body>
         </Accordion.Item>
       </Accordion>
     );
