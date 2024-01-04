@@ -86,7 +86,12 @@ class WorkoutModal extends Component {
         }
       }
       return arr.map((show) => (
-          <Dropdown id={show} key={show} list={this.props.list} />
+        <Dropdown
+          id={show}
+          key={show}
+          list={this.props.list}
+          desc={this.props.desc}
+        />
       ));
     }
   };
