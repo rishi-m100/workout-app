@@ -17,7 +17,6 @@ class Schedule extends Component {
           exercise_sat={this.props.content6}
           exercise_sun={this.props.content7}
           list={this.props.list}
-          desc={this.props.desc}
           onExercise={() => this.props.onExercise()}
         />
       </React.Fragment>

@@ -90,7 +90,6 @@ class WorkoutModal extends Component {
           id={show}
           key={show}
           list={this.props.list}
-          desc={this.props.desc}
         />
       ));
     }

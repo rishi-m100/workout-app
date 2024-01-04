@@ -29,7 +29,6 @@ class Days extends Component {
         exercise_sat={this.props.exercise_sat}
         exercise_sun={this.props.exercise_sun}
         list={this.props.list}
-        desc={this.props.desc}
         onExercise={() => {
           this.props.onExercise();
         }}

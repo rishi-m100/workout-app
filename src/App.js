@@ -38,7 +38,6 @@ class App extends Component {
         label: "schedule",
         display: (
           <Schedule
-            desc={exerciseList.description}
             onExercise={() => {
               this.handleNav(1);
             }}
