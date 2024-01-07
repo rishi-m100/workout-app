@@ -1,6 +1,6 @@
 To-Do List
 
-# To-Do List
+# Gym Workout App
 
 Gym Workout App | HTML/CSS, JavaScript, React, NodeJS August 2022\
 • Created a React web application to plan, create, and track gym workouts on a weekly basis.\
