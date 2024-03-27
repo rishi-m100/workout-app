@@ -50,7 +50,7 @@ class NavBar extends Component {
                     Exercises
                   </a>
                 </li>
-                <li>
+{/*                 <li>
                   <a
                     onClick={() => this.props.onNav(2)}
                     className="nav-link text-white"
@@ -75,7 +75,7 @@ class NavBar extends Component {
                     </div>
                     Profile
                   </a>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
